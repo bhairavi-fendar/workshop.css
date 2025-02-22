@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Column Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .left-column, .right-column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .left-column {
+            background-color: #d3d3d3; /* Light lime */
+        }
+        .right-column {
+            background-color: #90ee90; /* Light red */
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <h2>Amazon Kindle Bestsellers</h2>
+            <ol>
+                <li><a href="https://www.amazon.com/dp/B0B6Q7Y8L9">The Crash by Freida McFadden</a></li>
+                <li><a href="https://www.amazon.com/dp/B0B9H1D3Z3">Fourth Wing (The Empyrean Book 1) by Rebecca Yarros</a></li>
+                <li><a href="https://www.amazon.com/dp/B09JSJ9Q9L">The Housemaid by Freida McFadden</a></li>
+                <li><a href="https://www.amazon.com/dp/B08V1Q7K4Y">The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid</a></li>
+                <li><a href="https://www.amazon.com/dp/B08X2YLCZF">The Four Winds by Kristin Hannah</a></li>
+            </ol>
+        </div>
+        <div class="right-column">
+            <h2>Favorite Celebrities/Athletes</h2>
+            <ul>
+                <li>Leonardo DiCaprio</li>
+                <li>Serena Williams</li>
+                <li>Robert Downey Jr.</li>
+                <li>Simone Biles</li>
+                <li>Chris Hemsworth</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
